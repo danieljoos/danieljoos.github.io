@@ -147,27 +147,3 @@ body {
 .block:hover .block-logo {
     fill: #ffffff;
 }
-
-
-.vitae h1 {
-    margin-bottom: 30px;
-}
-
-.vitae-entry {
-    margin-top: 20px;
-    margin-bottom: 75px;
-}
-
-.vitae-entry h2 {
-    margin-top: 0;
-}
-
-.vitae-entry h4 {
-    margin-bottom: 20px;
-}
-
-.vitae-entry .vitae-entry-logo {
-    max-width: 150px;
-    max-height: 65px;
-    margin-top: 20px;
-}
