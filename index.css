@@ -33,7 +33,6 @@ body {
     text-align: center;
 }
 
-
 .button-container {
     display: inline-block;
     position: relative;
@@ -47,6 +46,11 @@ body {
 .button-container .block {
     position: absolute;
     z-index: 2;
+    transition: all 1s;
+}
+
+.button-container .block-xs {
+    font-family: 'Roboto';
 }
 
 .button-container #button-linkedin {
@@ -74,6 +78,65 @@ body {
     z-index: 1;
     top: 90px;
     left: 20px;
+}
+
+.button-container .block-xs {
+    display: none;
+}
+
+@media (max-width: 600px) {
+    .button-container {
+        width: 100%;
+        height: auto;
+    }
+
+    .button-container .block {
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    .button-container #button-linkedin {
+        top: -120px;
+        left: -110px;
+    }
+
+    .button-container #button-xing {
+        top: -9px;
+        left: -160px;
+    }
+
+    .button-container #button-github {
+        top: 141px;
+        left: 580px;
+    }
+
+    .button-container #button-facebook {
+        top: 301px;
+        left: 506px;
+    }
+
+    .button-container #button-background {
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    .button-container .block-xs {
+        display: inline-block;
+        /*width: 200px;*/
+        margin-bottom: 15px;
+    }
+}
+
+.button-container {
+    transition: all 0.5s;
+}
+
+.button-container #button-background {
+    position: absolute;
+    z-index: 1;
+    top: 90px;
+    left: 20px;
+    transition: all 0.5s;
 }
 
 .block path {
