@@ -1,168 +1,49 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="x-ua-compatible" content="ie=edge">
-	<title>Daniel Joos</title>
-	<meta name="description" content="Profile page of Daniel Joos">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.2.1/css/bulma.min.css" integrity="sha256-DRcOKg8NK1KkSkcymcGmxOtS/lAn0lHWJXRa15gMHHk="
-		crossorigin="anonymous" />
-	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1"
-		crossorigin="anonymous">
-
-	<style type="text/css">
-		.brand-color-linkedin {
-			color: #0077b5;
-		}
-		
-		.brand-color-xing {
-			color: #026466;
-		}
-		
-		.brand-color-github: {
-			color: #333333;
-		}
-	</style>
+    <title>Daniel Joos - Software Engineer</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" />
+    <link rel="stylesheet" href="resume.css" />
 </head>
 
 <body>
-	<section class="hero is-dark has-text-centered">
-		<div class="hero-body">
-			<div class="container">
-				<p class="title">Daniel Joos</p>
-				<p class="subtitle">Software Engineer</p>
-			</div>
-		</div>
-	</section>
+    <main>
+        <article class="resume">
+            <h1>Daniel Joos</h1>
+            <p class="subtitle1 highlight">Software Engineer</p>
 
-	<section class="section">
-		<div class="container">
+            <section class="socialmedia">
+                <h2><span class="highlight">Net</span>work</h2>
 
-			<div class="tile is-ancestor">
-				<div class="tile is-4 is-vertical is-parent">
+                <a href="https://www.linkedin.com/in/daniel-joos" target="_blank"
+                    title="LinkedIn profile of Daniel Joos">
+                    <img src="linkedin.svg" alt="LinkedIn Logo" /> LinkedIn Profile:
+                    <p class="highlight">@daniel-joos</p>
+                </a>
 
-					<!-- LinkedIn Tile -->
-					<div class="tile is-child">
-						<a href="https://www.linkedin.com/in/daniel-joos" target="_blank" title="LinkedIn profile of Daniel Joos">
-							<div class="card is-fullwidth">
-								<div class="card-image is-hidden-mobile">
-									<figure class="image">
-										<img src="linkedin-card.svg" alt="LinkedIn Logo">
-									</figure>
-								</div>
-								<div class="card-content">
-									<i class="fa fa-linkedin-square fa-2x pull-left is-hidden-tablet brand-color-linkedin"></i>
-									<p class="title is-5">LinkedIn Profile</p>
-									<p class="subtitle is-6">@daniel-joos</p>
-								</div>
-							</div>
-						</a>
-					</div>
+                <a href="https://www.xing.com/profile/Daniel_Joos3" target="_blank" title="Xing profile of Daniel Joos">
+                    <img src="xing.svg" alt="XING Logo" /> Xing Profile:
+                    <p class="highlight">@Daniel_Joos3</p>
+                </a>
 
-					<!-- Xing Tile -->
-					<div class="tile is-child">
-						<a href="https://www.xing.com/profile/Daniel_Joos3" target="_blank" title="Xing.com profile of Daniel Joos">
-							<div class="card is-fullwidth">
-								<div class="card-image is-hidden-mobile">
-									<figure class="image">
-										<img src="xing-card.svg" alt="Xing Logo">
-									</figure>
-								</div>
-								<div class="card-content">
-									<i class="fa fa-xing-square fa-2x pull-left is-hidden-tablet brand-color-xing"></i>
-									<p class="title is-5">Xing Profile</p>
-									<p class="subtitle is-6">@Daniel_Joos3</p>
-								</div>
-							</div>
-						</a>
-					</div>
+                <a href="https://github.com/danieljoos" target="_blank" title="Github profile of Daniel Joos">
+                    <img src="github.svg" alt="Github Logo" /> Github Profile:
+                    <p class="highlight">@danieljoos</p>
+                </a>
 
-				</div>
-				<div class="tile is-4 is-parent">
-
-					<!-- Github Tile -->
-					<div class="tile is-child">
-						<a href="https://github.com/danieljoos" target="_blank" title="Github profile of Daniel Joos">
-							<div class="card is-fullwidth">
-								<div class="card-image is-hidden-mobile">
-									<figure class="image">
-										<img src="github-card.svg" alt="Xing Logo">
-									</figure>
-								</div>
-								<div class="card-content">
-									<i class="fa fa-github-square fa-2x pull-left is-hidden-tablet brand-color-github"></i>
-									<p class="title is-5">Github Profile</p>
-									<p class="subtitle is-6">@danieljoos</p>
-								</div>
-								<div class="card-content is-hidden-mobile">
-									<div class="github-card" data-github="danieljoos" data-width="100%" data-height="200" data-theme="default"></div>
-									<script src="//cdn.jsdelivr.net/github-cards/latest/widget.js" defer></script>
-								</div>
-							</div>
-						</a>
-					</div>
-
-				</div>
-				<div class="tile is-4 is-parent">
-
-          <!-- Some Projects Tile -->
-					<div class="tile is-child">
-						<div class="card is-fullwidth">
-							<header class="card-header">
-								<p class="card-header-title">
-									Some of my projects
-								</p>
-							</header>
-							<div class="card-content">
-								<nav class="panel">
-									<a class="panel-block" href="https://github.com/danieljoos/libkafka-asio">
-										<p><span class="panel-icon"><i class="fa fa-book"></i></span> libkafka-asio</p>
-										<small>C++ Kafka Client Library using Boost Asio.</small>
-									</a>
-									<a class="panel-block" href="https://github.com/danieljoos/wincred">
-										<p><span class="panel-icon"><i class="fa fa-book"></i></span> wincred</p>
-										<small>Go wrapper around the Windows Credential Manager API functions.</small>
-									</a>
-									<a class="panel-block" href="https://github.com/danieljoos/aws-sign-web">
-										<p><span class="panel-icon"><i class="fa fa-book"></i></span> aws-sign-web</p>
-										<small>Plain JavaScript AWS Signature v4 for use within Web Browsers.</small>
-									</a>
-								</nav>
-							</div>
-						</div>
-					</div>
-
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<footer class="footer">
-		<div class="container">
-			<div class="content has-text-centered">
-				<p>© 2016 Daniel Joos</p>
-				<p>
-					<small>
-            Brand icons have been taken from <a href="http://fontawesome.io/" target="_blank" alt="FontAwesome Project Page" >FontAwesome</a>.
-            <br/>
-            Github information is displayed via <a href="https://github.com/lepture/github-cards" target="_blank" alt="Unofficial Github Cards Project Page">Unofficial Github Cards<i class="fa fa-github"></i></a>
-          </small>
-				</p>
-			</div>
-		</div>
-	</footer>
-	<script>
-	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-	  ga('create', 'UA-86342351-1', 'auto');
-	  ga('send', 'pageview');
-	</script>
+            </section>
+        </article>
+    </main>
+    <footer>
+        <p>© <span id="year">2022</span> Daniel Joos</p>
+        <p>
+            Brand icons have been taken from
+            <a href="http://fontawesome.io/" target="_blank" title="FontAwesome Project Page">FontAwesome</a>.
+        </p>
+    </footer>
+    <script>document.getElementById('year').textContent = new Date().getFullYear()</script>
 </body>
 
 </html>
